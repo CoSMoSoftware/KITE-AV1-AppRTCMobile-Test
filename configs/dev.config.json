@@ -1,0 +1,43 @@
+{
+  "name": "Interop AppRTCMobile AV1 WebRTC Test %ts",
+  "grids": [
+    {
+      "type": "local",
+      "url": "http://192.168.1.133:4444/wd/hub"
+    }
+  ],
+  "tests": [
+    {
+      "name": "AppRTCMobile AV1 Test %ts",
+      "description": "AppRTCMobile AV1 WebRTC Test",
+      "tupleSize": 2,
+      "testImpl": "io.cosmosoftware.kite.apprtcmobile.tests.AppRTCMobileTest",
+      "payload": {
+        "coordinates": {
+          "log": [621, 577, 199, 430],
+          "video": [921, 70, 490, 595]
+        }
+      }
+    }
+  ],
+  "clients": [
+{
+      "browserName": "app",
+      "platform": "MAC",
+      "deviceName": "MAC",
+      "app": {
+        "appName": "/Users/cosmouser/Desktop/appium/AppRTCMobile_av1_m85_release.app",
+        "appWorkingDir": "/Users/cosmouser/Desktop/appium"
+      }
+},
+    {
+      "browserName": "app",
+      "platform": "MAC",
+      "deviceName": "MAC",
+      "app": {
+        "appName": "/Users/cosmouser/Desktop/appium/AppRTCMobile_av1_m85_release.app",
+        "appWorkingDir": "/Users/cosmouser/Desktop/appium"
+      }
+    }
+  ]
+}
